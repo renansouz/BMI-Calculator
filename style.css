@@ -1,0 +1,135 @@
+body{
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 1px;
+}
+
+.alt{
+   padding-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(13, 164, 194), rgb(11, 141, 167), rgb(1, 84, 101)  );
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(157, 157, 157);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: rgb(9, 22, 57);
+    font: bold 2.1rem 'VT323', monospace;
+    border-bottom: solid 1px rgb(61, 61, 61);
+    margin-bottom: 20px;
+}
+
+.input{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font: bold 1.2rem arial;
+    text-align: center;
+}
+
+.input label{
+    font: normal 1.2rem impact;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    font: bold 1.3rem arial;
+    background:  lavender;
+    border-color:  blue;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.3rem 'VT323', monospace;
+    box-shadow: 0px 0px 10px blue;
+    background: lavender;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+@media (max-width: 650px) {
+    body{
+        background-repeat: repeat;
+    }
+    
+    .title{
+        font: bold 1.5rem 'VT323', monospace;
+    }
+
+    .container{
+      margin-top: 35%;
+      margin: 20%;
+      margin-bottom: 35%;
+    }
+    .result{
+      font-size: 30px;
+    }
+
+    .input input{
+        width: 60%;
+        height: 60%;
+        margin-right: 05%;
+    }
+
+    .input label{
+        margin-left: 10%
+    }
+
+    button{
+        width: 40%;
+    }
+
+    .result{
+        width: 80%;
+        font: italic 1.0rem 'VT323', monospace;
+    }
+}
+
