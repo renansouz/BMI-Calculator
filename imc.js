@@ -15,7 +15,7 @@ function imc() {
         if (ValorIMC < 18.5){
             classificação = 'abaixo do peso.';
         }else if (ValorIMC <25) {
-            classificação = 'com peso ideal, parabéns!!!';
+            classificação = 'no seu peso ideal, parabéns!!!';
         }else if (ValorIMC < 30){
             classificação = 'levemente acima do peso.';
         }else if (ValorIMC < 35){
