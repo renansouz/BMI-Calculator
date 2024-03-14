@@ -15,6 +15,10 @@ You can access the BMI calculator online <a href="https://renansouz.github.io/BM
 - `styles.css`: CSS file for styling the calculator.
 - `script.js`: JavaScript file that performs the BMI calculations.
 
+##Using the Calculator
+
+To use the calculator, please input your height in meters and weight in kilograms.
+
 ## Resources Used
 
 - **HTML**: Markup language for structuring the content.
