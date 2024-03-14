@@ -54,12 +54,15 @@ main {
   text-align: center;
   background-color: #222;
   color: #f4f7f7;
+  margin-right: -1rem;
 }
 
 .input label {
   color: #222;
-  font-family: monospace;
-  font-size: 1.3em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+
+  margin-left: -1rem;
 }
 
 input::placeholder {
