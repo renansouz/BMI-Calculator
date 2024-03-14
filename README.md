@@ -1,6 +1,6 @@
 # Body Mass Index (BMI) Calculator
 
-<img src="https://i.imgur.com/Jo4S1FI.jpeg"> 
+<img src="https://i.imgur.com/UAbEgc1.png"> 
 
 This is a simple Body Mass Index (BMI) calculator made with HTML, CSS, and JavaScript. BMI is a measure that indicates whether you are at a healthy weight for your height.
 
