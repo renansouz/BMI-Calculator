@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>IMC</title>
-</head>
-<body background="Fundo-IMC.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <header>
+      <h1>BMI Calculator</h1>
+    </header>
     <main>
-        <div class="container">
-            <div class="title">Calculadora de IMC</div>
-            <div class="input">
-                <label>Nome </label>
-                <input type="text" id='nome'>
-            </div>
-           
-            <div class="input">
-                <label class="alt"><p class="ex">(ex. 1.80)</p>Altura </label>
-                <input type="text" id='altura'>
-            </div> 
-            
-            <div class="input">
-                <label class="alt"> <p class="ex">(ex. 80.5)</p>Peso</label>
-                <input type="number" id='peso'>
-            </div>
-            <button id="calcular">Calcular</button>
+      <div class="container">
+        <div class="result" id="resultado"></div>
 
-            <div class="result" id='resultado'></div>
+        <div class="input">
+          <label for="nome">Name:</label>
+          <input
+            type="text"
+            id="nome"
+            placeholder="Enter your name here"
+            maxlength="20"
+          />
         </div>
+
+        <div class="input">
+          <label for="altura">Height:</label>
+          <input
+            type="text"
+            id="altura"
+            placeholder="Enter your height here"
+            maxlength="4"
+            oninput="this.value = this.value.replace(',', '.');"
+          />
+        </div>
+
+        <div class="input">
+          <label for="peso">Weight:</label>
+          <input
+            type="text"
+            id="peso"
+            placeholder="Enter your weight here"
+            maxlength="6"
+          />
+        </div>
+        <button id="calcular">Calculate</button>
+      </div>
     </main>
-    <script src="imc.js"></script>
-</body>
+
+    <footer>
+      <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
