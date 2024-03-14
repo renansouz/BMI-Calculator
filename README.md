@@ -4,7 +4,8 @@ This is a simple Body Mass Index (BMI) calculator made with HTML, CSS, and JavaS
 
 ## Accessing the Calculator
 
-You can access the BMI calculator online [by clicking here](https://renansouz.github.io/Calculadora-de-IMC/).
+You can access the BMI calculator online <a href="https://renansouz.github.io/BMI-Calculator/" target="_blank">clicking here.</a>
+
 
 ## File Structure
 
@@ -24,4 +25,5 @@ This calculator was developed as part of a personal project to practice HTML, CS
 
 ---
 
-Made by [Renan Souza Silva](https://www.linkedin.com/in/renansilvadev/)
+Made by <a href="https://www.linkedin.com/in/renansilvadev/" target="_blank">Renan Souza Silva.</a>
+
