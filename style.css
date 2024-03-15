@@ -34,6 +34,8 @@ main {
   justify-content: space-evenly;
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgb(157, 157, 157);
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .input {
@@ -105,31 +107,35 @@ footer {
   color: #222;
 }
 
-@media (max-width: 650px) {
-  .title {
-    font: bold 1.5rem monospace;
+@media only screen and (max-width: 428px) and (max-height: 926px) {
+  main {
+    position: absolute;
+  }
+  .container {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    position: relative; /* Adicionando esta linha */
   }
 
-  .result {
-    font-size: 30px;
+  footer {
+    bottom: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
+}
 
-  .input input {
-    width: 60%;
-    height: 60%;
-    margin-right: 5%;
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  main {
+    margin: 0rem;
+    position: absolute;
+    margin-left: 10rem;
   }
-
-  .input label {
-    margin-left: 10%;
-  }
-
-  button {
-    width: 40%;
-  }
-
-  .result {
-    width: 80%;
-    font: italic 1rem monospace;
+  footer {
+    bottom: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
